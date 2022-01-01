@@ -1,0 +1,313 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    color: #666666;
+    padding: 0;
+}
+header{
+    margin-bottom: 50px;
+}
+
+#head{
+    background-image: url(img/bg_head.jpg);
+    height: 450px;
+    background-size: cover;
+    border-bottom: 1px solid #ABB2B9;
+}
+#logo{
+    text-align: center;
+    
+}
+#img-circle{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    border: 8px solid #CCD1D1;
+    margin-top: 40px;
+}
+
+.title{
+    font-size: 40px;
+    color: #212F3D;
+    margin: 0;
+    margin-top: -20px;
+    letter-spacing: .1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.title2{
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+    letter-spacing: 0.1rem;
+}
+.emailHead{
+    margin: -7px;
+}
+.emailHead a{
+    text-decoration: none;
+    color: #34495E;
+    font-size: 18px;
+}
+.emailHead a:hover{
+    border-bottom: 1px solid black;
+}
+.tagline{
+    margin: 0;
+    font-size: 14px;
+    line-height: 1rem;
+    color: #909497;
+    font-family: 'Open Sans', sans-serif;
+}
+#navbar{
+    border-bottom: 1px solid #ABB2B9;
+    height: 60px;
+}
+.nav{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.nav-item a{
+    color: #212F3D;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+/* --------main body container-------- */
+#main{
+    
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+#main-one{
+    width: 900px;
+    text-align: center;
+    margin: auto;
+}
+#main-one a{
+    text-decoration: none;
+    color: brown;
+}
+#main-one a:hover{
+    border-bottom: 2px solid brown;
+}
+#main-one h1{
+    font-size: 18px;
+    line-height: 25px;
+    color: #A6ACAF;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+/* --------Services Section-------- */
+#cards{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+#serviceTitle{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+#cardGroup{
+    width: 200px;
+    /* height: 200px; */
+    padding: 10px;
+    /* border: 1px solid black; */
+    margin-right: 10px;
+}
+#cardGroup h2{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: .09rem;
+}
+#btnRM{
+    border: 1px solid black;
+    width: 70%;
+    height: 50px;
+    padding: 10px;
+    background: none;
+    font-size: large;
+    text-transform: uppercase;
+}
+#btnRM:hover{
+    color: brown;
+    border-color: brown;
+    transition-duration: 0.2s;
+}
+/* --------Recent Works Section-------- */
+#workTitle{
+    width: 100%;
+    margin-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+#workTitle h1{
+    margin: auto;
+    text-align: center;
+}
+#work1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#workGroup{
+    width: 320px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+#workGroup img{
+    background-size: cover;
+    width: 300px;
+    margin-bottom: 15px;
+}
+#workGroup img:hover{
+    opacity: 15%;
+    transition-duration: .3s;
+}
+#workGroup h5{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#workGroup a{
+    text-decoration: none;
+}
+#seeDetail{
+    position: absolute;
+    left: 210px;
+    top: 150px;
+    background-color: brown;
+    color: white;
+    width: 100px;
+    padding: 3px;
+}
+/* --------Download Template Section-------- */
+#tempDownload{
+    width: 100%;
+}
+#text{
+    width: 950px;
+    min-height: 180px;
+    margin: auto;
+    background-color: #F2F3F4;
+    padding: 40px;
+    border: 1px solid slategrey;
+    position: relative;
+    font-family: "Open sans", Helvetica, Arial, sans-serif;
+    box-shadow: 1px 3px 2px black;
+}
+#text h5{
+    font-size: 15px;
+}
+#text a{
+    text-decoration: none;
+    width: 200px;
+    background-color: tomato;
+    padding: 10px;
+    box-shadow: 1px 3px 2px black;
+    border-radius: 5px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    right: 50px; 
+}
+#text a:hover{
+    background-color: darkcyan;
+    transition-duration: .5s;
+}
+/* --------Clint Section-------- */
+#clint{
+    width: 100%;
+}
+#clintGroup{
+    width: 950px;
+    margin: auto;
+    min-height: 180px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#clintTitle{
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+#clintGroup p img{
+    width: 900px;
+}
+/* --------Footer Section-------- */
+footer{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    position: relative;
+    margin-top: -70px;
+}
+#footerMain{
+    width: 100%;
+    display: flex;
+}
+
+#footerGroup{
+    width: 320px;
+    padding: 15px;
+    position: relative;
+    color: #BDC3C7;
+    
+}
+#footerGroup a{
+    text-decoration: none;
+    color: #BDC3C7;
+}
+#footerGroup h4{
+    font-size: 20px;
+}
+#footerGroup p{
+    margin: 0;
+    font-size: 14px;
+}
+#footerGroup a:hover{
+    border-bottom: 1px solid;
+    color: #BDC3C7;
+}
+#footerGroup i{
+    font-size: 25px;
+    padding: 5px;
+    letter-spacing: -.5rem;
+    margin-top: 10px;
+}
+#footerGroup i:hover{
+    color: white;
+    transition-duration: 0.3s;
+}
+#footerEnd{
+    color: white;
+}
+#footerAddress{
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    font-size: 14px;
+    color: #BDC3C7;
+}
+#copyRight{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    color: white;
+    font-size: 14px;
+    color: #BDC3C7;
+}
+#copyRight a:hover{
+    border-bottom: 1px solid white;
+}
+#copyRight a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.3s;
+}
